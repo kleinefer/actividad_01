@@ -1,0 +1,139 @@
+
+body {
+
+    font-family: tahoma;
+    font-size :90%;
+    color :#0a0a0a;
+    background-image: url(https://thumbs.dreamstime.com/b/fondo-abstracto-de-las-plumas-el-fondo-para-el-dise%C3%B1o-con-el-colorfull-suave-empluma-el-modelo-plumas-mullidas-suaves-en-la-93564394.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 50px;
+    }
+    h1{
+        color: #b50c0c;
+    }
+    .wrapper{
+        width: 940px;
+        margin: 10px 50px 20px 50px;
+        border: 120px solid #8f1b1b00;
+        background-color: #b2808055;
+    }
+    li{
+        list-style-image:url(images/icon-plus.png);
+     }
+    
+    
+    table {
+    border-spacing: 1px;
+    
+    }
+    
+    th,
+    
+    td {
+    padding: 5px 30px 5px 10px;
+    border-spacing: 0px;
+    font-size: 90%;
+    margin: 0px;
+    }
+    
+    
+    th,
+    
+    td {
+    text-align: left;
+    background-color: #ae7b7b;
+    border-top: 1px solid #84555576;
+    border-bottom: 1px solid #b50c0c4f;
+    border-right: 1px solid #c48787b4;
+    
+    }
+    
+    tr.head th {
+    color: #000000;
+    background-color: #d69090;
+    border-bottom: 2px solid;
+    border-right: 1px solid #be7474;
+    border-top: lpx solid 90b4d6;
+    text-align: center;
+    text-shadow: -1px -1px lpx #a86363;
+    letter-spacing: 0.15em;}
+    td {
+    
+    text-shadow: 1px 1px 1px #503e3e62;}
+    
+    
+    tr.even td,
+    tr.even th {
+    background-color: #d6909080;
+    
+    }
+    
+    tr.head th:first-child {
+    -webkit-margin-bottom-collapse: 5px;
+    -moz-border-radius-topleft: 5px;
+    border-top-left-radius: S5px;
+    }
+    
+    tr.head th:last-child {
+    -webkit-border-before-color: 5px;
+    -moz-border-radius-topright: Spx;
+    border-top-right-radius: Spx;
+    
+    }
+    
+    fieldset {
+    width: 310px;
+    margin-top: 20px;
+    border: lpx solid #b50c0c;
+    background-color: #9c727249;
+    line-height: 1.6em;
+    
+    }
+    
+    legend {
+    font-style: italic;
+    color: #2e2c2c;
+    
+    }
+    
+    input {
+    width: 120px;
+    border: 1px solid #d6d6d6;
+    padding: 2px;
+    outline: none;
+    }
+    input[type='text']{
+        width: 120px;
+        border: 1px solid #d6d6d6;
+        padding: 2px;
+        outline: none;
+    }
+    input[type='submit']:hover{
+        border: 1px solid #006633;
+        background-color: #d0e2f0;
+        color:#fff;
+        border-radius: 5px;
+        padding: 5px;
+        margin-top: 10px;
+    }
+    input[type='submit']:hover{
+        border: 1px solid #006633;
+        background-color: #00cc33;
+        color: #ffff;
+        cursor: pointer;
+    }
+    .title{
+        float: left;
+        width: 160px;
+        clear: left;
+    }
+    .submit{
+        width: 310px;
+        text-align: right;
+    }
+    @media (max-width:320px){
+       .contenedor{ overflow: auto;}
+    }
+    
+    
